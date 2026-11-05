@@ -9,6 +9,14 @@ nav a {
     padding: 20px;
 }
 
+main img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+}
+
 main {
     max-width: 800px;
 }

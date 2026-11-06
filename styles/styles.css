@@ -14,7 +14,7 @@ main img {
     height: auto;
     border: 1px solid #ccc;
     padding: 10px;
-    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 main {

@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #189aac;
-    --secondary-color: #cc1919;
+    --primary-color: #6c084c;
+    --secondary-color: #f8f4f4;
     --accent1-color: #1c0c7c;
     --accent2-color: #b4c313;
     --heading-font: 'Impact, Haettenschweiler', 'Arial Narrow Bold', sans-serif;
@@ -28,7 +28,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(var(--primary-color));
+    color: var(--primary-color);
 }
 
 nav,
@@ -60,19 +60,18 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: azure;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 article {
     position: absolute;
-    top: 380px;
+    top: 360px;
     left: 2rem;
     right: 2rem;
     padding: 1rem;
-    height: 25%;
     text-align: center;
-    background-color: #b4c313;
+    background-color: var(--accent2-color);
     color: #1c0c7c;
 }
 
